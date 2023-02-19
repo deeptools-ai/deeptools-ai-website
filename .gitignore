@@ -165,3 +165,6 @@ pynecone.db
 
 # VSCode
 .vscode/
+
+# Mac
+.DS_Store
