@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deeptools-ai-website"
+version = "0.1.0"
+description = "Website for deeptools.ai"
+authors = ["deeptools.ai <contact@deeptools.ai>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "deeptools_ai_website"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pynecone = ">=0.1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
